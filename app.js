@@ -27,17 +27,17 @@ function startBtn() {
 }
 
 
-//    minInterval = setInterval(function () {
-//     min += 1;
-//     if(min>9){
-//      minute.innerHTML = min; 
-//     }else{
-//       minute.innerHTML = "0" + min;
-//     }
-//     if (min == 59) {
-//       min = 0;
-//     }
-//   }, 60000);
+   minInterval = setInterval(function () {
+    min += 1;
+    if(min>9){
+     minute.innerHTML = min; 
+    }else{
+      minute.innerHTML = "0" + min;
+    }
+    if (min == 59) {
+      min = 0;
+    }
+  }, 60000);
 
 
 // hourInterval =  setInterval(function () {
