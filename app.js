@@ -10,20 +10,21 @@ let hours = document.querySelector("#hour");
 let minute = document.querySelector("#minute");
 let seconds = document.querySelector("#second");
 
-// function startBtn() {
+function startBtn() {
   
 
-//    secInterval = setInterval(function () {
-//     sec += 1;
-//     if (sec > 9) {
-//       seconds.innerHTML = sec;
-//     } else {
-//       seconds.innerHTML = "0"+ sec;
-//     }
-//     if (sec == 59) {
-//       sec = 0;
-//     }
-//   }, 1000);
+   secInterval = setInterval(function () {
+    sec += 1;
+    if (sec > 9) {
+      seconds.innerHTML = sec;
+    } else {
+      seconds.innerHTML = "0"+ sec;
+    }
+    if (sec == 59) {
+      sec = 0;
+    }
+  }, 1000);
+}
 
 
 //    minInterval = setInterval(function () {
