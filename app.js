@@ -63,17 +63,17 @@ function stopInterval() {
   
 }
 
-// function reset() {
-//  hour=0;
-//  sec=0;
-//  min=0;
+function reset() {
+ hour=0;
+ sec=0;
+ min=0;
 
-//  hours.innerHTML= "00 ";
-//  minute.innerHTML= "00 ";
-//  seconds.innerHTML= "00";
+ hours.innerHTML= "00 ";
+ minute.innerHTML= "00 ";
+ seconds.innerHTML= "00";
 
-//  clearInterval(secInterval);
-//  clearInterval(minInterval);
-//  clearInterval(hourInterval);
+ clearInterval(secInterval);
+ clearInterval(minInterval);
+ clearInterval(hourInterval);
 
-// }
+}
