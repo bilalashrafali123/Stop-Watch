@@ -40,19 +40,19 @@ function startBtn() {
   }, 60000);
 
 
-// hourInterval =  setInterval(function () {
-//     hour += 1;
-//     if (hour > 9) {
-//       hours.innerHTML = hour;
-//     } else {
-//       hours.innerHTML = "0" + hour;
-//     }
-//     if (hour == 59) {
-//       hour = 0;
-//     }
-//   }, 3600000);
+hourInterval =  setInterval(function () {
+    hour += 1;
+    if (hour > 9) {
+      hours.innerHTML = hour;
+    } else {
+      hours.innerHTML = "0" + hour;
+    }
+    if (hour == 59) {
+      hour = 0;
+    }
+  }, 3600000);
   
-// }
+
 
 
 
