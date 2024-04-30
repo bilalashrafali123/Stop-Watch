@@ -56,12 +56,12 @@ hourInterval =  setInterval(function () {
 
 
 
-// function stopInterval() {
-//    clearInterval(secInterval);
-//    clearInterval(minInterval);
-//    clearInterval(hourInterval);
+function stopInterval() {
+   clearInterval(secInterval);
+   clearInterval(minInterval);
+   clearInterval(hourInterval);
   
-// }
+}
 
 // function reset() {
 //  hour=0;
